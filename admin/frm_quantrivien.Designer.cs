@@ -32,10 +32,9 @@
             this.btn_qlhs = new System.Windows.Forms.Button();
             this.btn_qlgv = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.p_user = new DevExpress.XtraEditors.PanelControl();
             this.btn_chung = new System.Windows.Forms.Button();
+            this.p_user = new System.Windows.Forms.Panel();
             this.panelContainer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.p_user)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_qlhs
@@ -72,13 +71,6 @@
             this.panelContainer.Size = new System.Drawing.Size(170, 648);
             this.panelContainer.TabIndex = 2;
             // 
-            // p_user
-            // 
-            this.p_user.Location = new System.Drawing.Point(188, 12);
-            this.p_user.Name = "p_user";
-            this.p_user.Size = new System.Drawing.Size(1159, 648);
-            this.p_user.TabIndex = 3;
-            // 
             // btn_chung
             // 
             this.btn_chung.BackColor = System.Drawing.Color.Blue;
@@ -91,6 +83,13 @@
             this.btn_chung.UseVisualStyleBackColor = false;
             this.btn_chung.Click += new System.EventHandler(this.btn_chung_Click);
             // 
+            // p_user
+            // 
+            this.p_user.Location = new System.Drawing.Point(185, 12);
+            this.p_user.Name = "p_user";
+            this.p_user.Size = new System.Drawing.Size(1162, 648);
+            this.p_user.TabIndex = 3;
+            // 
             // frm_quantrivien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -102,7 +101,6 @@
             this.Text = "Quản Trị Viên";
             this.Load += new System.EventHandler(this.frm_quantrivien_Load);
             this.panelContainer.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.p_user)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -112,8 +110,8 @@
         private System.Windows.Forms.Button btn_qlhs;
         private System.Windows.Forms.Button btn_qlgv;
         private System.Windows.Forms.Panel panelContainer;
-        private DevExpress.XtraEditors.PanelControl p_user;
         private System.Windows.Forms.Button btn_chung;
+        private System.Windows.Forms.Panel p_user;
     }
 }
 
