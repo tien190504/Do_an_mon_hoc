@@ -43,7 +43,7 @@
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.cbo_chucvu = new System.Windows.Forms.ComboBox();
             this.cbo_trinhdo = new System.Windows.Forms.ComboBox();
             this.cbo_khoa = new System.Windows.Forms.ComboBox();
@@ -76,8 +76,7 @@
             this.lbl_username = new System.Windows.Forms.Label();
             this.lbl_userid = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_giangvien)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgv_giangvien
@@ -206,43 +205,43 @@
             this.Column8.Name = "Column8";
             this.Column8.Width = 125;
             // 
-            // panelControl1
+            // panel1
             // 
-            this.panelControl1.Controls.Add(this.cbo_chucvu);
-            this.panelControl1.Controls.Add(this.cbo_trinhdo);
-            this.panelControl1.Controls.Add(this.cbo_khoa);
-            this.panelControl1.Controls.Add(this.lbl_trinhdo);
-            this.panelControl1.Controls.Add(this.lbl_chucvu);
-            this.panelControl1.Controls.Add(this.lbl_khoa);
-            this.panelControl1.Controls.Add(this.rb_nu);
-            this.panelControl1.Controls.Add(this.rb_nam);
-            this.panelControl1.Controls.Add(this.btn_sua);
-            this.panelControl1.Controls.Add(this.btn_them);
-            this.panelControl1.Controls.Add(this.dtp_ngaysinh);
-            this.panelControl1.Controls.Add(this.txt_diachi);
-            this.panelControl1.Controls.Add(this.txt_sodienthoai);
-            this.panelControl1.Controls.Add(this.txt_email);
-            this.panelControl1.Controls.Add(this.txt_ten);
-            this.panelControl1.Controls.Add(this.txt_ho);
-            this.panelControl1.Controls.Add(this.txt_magiangvien);
-            this.panelControl1.Controls.Add(this.txt_password);
-            this.panelControl1.Controls.Add(this.txt_username);
-            this.panelControl1.Controls.Add(this.txt_userid);
-            this.panelControl1.Controls.Add(this.lbl_email);
-            this.panelControl1.Controls.Add(this.lbl_diachi);
-            this.panelControl1.Controls.Add(this.lbl_sodienthoai);
-            this.panelControl1.Controls.Add(this.lbl_ngaysinh);
-            this.panelControl1.Controls.Add(this.lbl_gioitinh);
-            this.panelControl1.Controls.Add(this.lbl_ho);
-            this.panelControl1.Controls.Add(this.lbl_mssv);
-            this.panelControl1.Controls.Add(this.lbl_ten);
-            this.panelControl1.Controls.Add(this.lbl_password);
-            this.panelControl1.Controls.Add(this.lbl_username);
-            this.panelControl1.Controls.Add(this.lbl_userid);
-            this.panelControl1.Location = new System.Drawing.Point(2, 3);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(462, 642);
-            this.panelControl1.TabIndex = 2;
+            this.panel1.Controls.Add(this.cbo_chucvu);
+            this.panel1.Controls.Add(this.cbo_trinhdo);
+            this.panel1.Controls.Add(this.cbo_khoa);
+            this.panel1.Controls.Add(this.lbl_trinhdo);
+            this.panel1.Controls.Add(this.lbl_chucvu);
+            this.panel1.Controls.Add(this.lbl_khoa);
+            this.panel1.Controls.Add(this.rb_nu);
+            this.panel1.Controls.Add(this.rb_nam);
+            this.panel1.Controls.Add(this.btn_sua);
+            this.panel1.Controls.Add(this.btn_them);
+            this.panel1.Controls.Add(this.dtp_ngaysinh);
+            this.panel1.Controls.Add(this.txt_diachi);
+            this.panel1.Controls.Add(this.txt_sodienthoai);
+            this.panel1.Controls.Add(this.txt_email);
+            this.panel1.Controls.Add(this.txt_ten);
+            this.panel1.Controls.Add(this.txt_ho);
+            this.panel1.Controls.Add(this.txt_magiangvien);
+            this.panel1.Controls.Add(this.txt_password);
+            this.panel1.Controls.Add(this.txt_username);
+            this.panel1.Controls.Add(this.txt_userid);
+            this.panel1.Controls.Add(this.lbl_email);
+            this.panel1.Controls.Add(this.lbl_diachi);
+            this.panel1.Controls.Add(this.lbl_sodienthoai);
+            this.panel1.Controls.Add(this.lbl_ngaysinh);
+            this.panel1.Controls.Add(this.lbl_gioitinh);
+            this.panel1.Controls.Add(this.lbl_ho);
+            this.panel1.Controls.Add(this.lbl_mssv);
+            this.panel1.Controls.Add(this.lbl_ten);
+            this.panel1.Controls.Add(this.lbl_password);
+            this.panel1.Controls.Add(this.lbl_username);
+            this.panel1.Controls.Add(this.lbl_userid);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(467, 633);
+            this.panel1.TabIndex = 4;
             // 
             // cbo_chucvu
             // 
@@ -252,10 +251,10 @@
             "Giáo sư",
             "Phó giáo sư",
             "Giảng viên"});
-            this.cbo_chucvu.Location = new System.Drawing.Point(124, 441);
+            this.cbo_chucvu.Location = new System.Drawing.Point(120, 418);
             this.cbo_chucvu.Name = "cbo_chucvu";
             this.cbo_chucvu.Size = new System.Drawing.Size(200, 24);
-            this.cbo_chucvu.TabIndex = 11;
+            this.cbo_chucvu.TabIndex = 42;
             // 
             // cbo_trinhdo
             // 
@@ -264,10 +263,10 @@
             this.cbo_trinhdo.Items.AddRange(new object[] {
             "Tiến Sĩ",
             "Thạc Sĩ"});
-            this.cbo_trinhdo.Location = new System.Drawing.Point(124, 489);
+            this.cbo_trinhdo.Location = new System.Drawing.Point(120, 466);
             this.cbo_trinhdo.Name = "cbo_trinhdo";
             this.cbo_trinhdo.Size = new System.Drawing.Size(200, 24);
-            this.cbo_trinhdo.TabIndex = 11;
+            this.cbo_trinhdo.TabIndex = 41;
             // 
             // cbo_khoa
             // 
@@ -304,45 +303,45 @@
             "Kinh tế",
             "Công nghệ sinh học",
             "Điện tử viễn thông"});
-            this.cbo_khoa.Location = new System.Drawing.Point(124, 393);
+            this.cbo_khoa.Location = new System.Drawing.Point(120, 370);
             this.cbo_khoa.Name = "cbo_khoa";
             this.cbo_khoa.Size = new System.Drawing.Size(200, 24);
-            this.cbo_khoa.TabIndex = 11;
+            this.cbo_khoa.TabIndex = 40;
             // 
             // lbl_trinhdo
             // 
             this.lbl_trinhdo.AutoSize = true;
-            this.lbl_trinhdo.Location = new System.Drawing.Point(27, 492);
+            this.lbl_trinhdo.Location = new System.Drawing.Point(23, 469);
             this.lbl_trinhdo.Name = "lbl_trinhdo";
             this.lbl_trinhdo.Size = new System.Drawing.Size(57, 16);
-            this.lbl_trinhdo.TabIndex = 10;
+            this.lbl_trinhdo.TabIndex = 39;
             this.lbl_trinhdo.Text = "Trình Độ";
             // 
             // lbl_chucvu
             // 
             this.lbl_chucvu.AutoSize = true;
-            this.lbl_chucvu.Location = new System.Drawing.Point(26, 449);
+            this.lbl_chucvu.Location = new System.Drawing.Point(22, 426);
             this.lbl_chucvu.Name = "lbl_chucvu";
-            this.lbl_chucvu.Size = new System.Drawing.Size(55, 16);
-            this.lbl_chucvu.TabIndex = 10;
+            this.lbl_chucvu.Size = new System.Drawing.Size(56, 16);
+            this.lbl_chucvu.TabIndex = 38;
             this.lbl_chucvu.Text = "Chức Vụ";
             // 
             // lbl_khoa
             // 
             this.lbl_khoa.AutoSize = true;
-            this.lbl_khoa.Location = new System.Drawing.Point(26, 401);
+            this.lbl_khoa.Location = new System.Drawing.Point(22, 378);
             this.lbl_khoa.Name = "lbl_khoa";
-            this.lbl_khoa.Size = new System.Drawing.Size(35, 16);
-            this.lbl_khoa.TabIndex = 10;
+            this.lbl_khoa.Size = new System.Drawing.Size(38, 16);
+            this.lbl_khoa.TabIndex = 37;
             this.lbl_khoa.Text = "Khoa";
             // 
             // rb_nu
             // 
             this.rb_nu.AutoSize = true;
-            this.rb_nu.Location = new System.Drawing.Point(293, 308);
+            this.rb_nu.Location = new System.Drawing.Point(289, 285);
             this.rb_nu.Name = "rb_nu";
-            this.rb_nu.Size = new System.Drawing.Size(44, 20);
-            this.rb_nu.TabIndex = 9;
+            this.rb_nu.Size = new System.Drawing.Size(45, 20);
+            this.rb_nu.TabIndex = 36;
             this.rb_nu.TabStop = true;
             this.rb_nu.Text = "Nữ";
             this.rb_nu.UseVisualStyleBackColor = true;
@@ -350,10 +349,10 @@
             // rb_nam
             // 
             this.rb_nam.AutoSize = true;
-            this.rb_nam.Location = new System.Drawing.Point(124, 310);
+            this.rb_nam.Location = new System.Drawing.Point(120, 287);
             this.rb_nam.Name = "rb_nam";
-            this.rb_nam.Size = new System.Drawing.Size(54, 20);
-            this.rb_nam.TabIndex = 8;
+            this.rb_nam.Size = new System.Drawing.Size(57, 20);
+            this.rb_nam.TabIndex = 35;
             this.rb_nam.TabStop = true;
             this.rb_nam.Text = "Nam";
             this.rb_nam.UseVisualStyleBackColor = true;
@@ -363,208 +362,205 @@
             this.btn_sua.BackColor = System.Drawing.Color.Blue;
             this.btn_sua.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sua.ForeColor = System.Drawing.Color.White;
-            this.btn_sua.Location = new System.Drawing.Point(349, 567);
+            this.btn_sua.Location = new System.Drawing.Point(345, 544);
             this.btn_sua.Name = "btn_sua";
             this.btn_sua.Size = new System.Drawing.Size(80, 41);
-            this.btn_sua.TabIndex = 6;
+            this.btn_sua.TabIndex = 34;
             this.btn_sua.Text = "Sửa";
             this.btn_sua.UseVisualStyleBackColor = false;
-            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
             // btn_them
             // 
             this.btn_them.BackColor = System.Drawing.Color.Blue;
             this.btn_them.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_them.ForeColor = System.Drawing.Color.White;
-            this.btn_them.Location = new System.Drawing.Point(58, 567);
+            this.btn_them.Location = new System.Drawing.Point(54, 544);
             this.btn_them.Name = "btn_them";
             this.btn_them.Size = new System.Drawing.Size(80, 41);
-            this.btn_them.TabIndex = 6;
+            this.btn_them.TabIndex = 33;
             this.btn_them.Text = "Thêm";
             this.btn_them.UseVisualStyleBackColor = false;
-            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
             // 
             // dtp_ngaysinh
             // 
-            this.dtp_ngaysinh.Location = new System.Drawing.Point(124, 352);
+            this.dtp_ngaysinh.Location = new System.Drawing.Point(120, 329);
             this.dtp_ngaysinh.Name = "dtp_ngaysinh";
-            this.dtp_ngaysinh.Size = new System.Drawing.Size(200, 23);
-            this.dtp_ngaysinh.TabIndex = 3;
+            this.dtp_ngaysinh.Size = new System.Drawing.Size(200, 22);
+            this.dtp_ngaysinh.TabIndex = 32;
             // 
             // txt_diachi
             // 
-            this.txt_diachi.Location = new System.Drawing.Point(349, 172);
+            this.txt_diachi.Location = new System.Drawing.Point(345, 149);
             this.txt_diachi.Name = "txt_diachi";
-            this.txt_diachi.Size = new System.Drawing.Size(100, 23);
-            this.txt_diachi.TabIndex = 2;
+            this.txt_diachi.Size = new System.Drawing.Size(100, 22);
+            this.txt_diachi.TabIndex = 30;
             // 
             // txt_sodienthoai
             // 
-            this.txt_sodienthoai.Location = new System.Drawing.Point(349, 122);
+            this.txt_sodienthoai.Location = new System.Drawing.Point(345, 99);
             this.txt_sodienthoai.Name = "txt_sodienthoai";
-            this.txt_sodienthoai.Size = new System.Drawing.Size(100, 23);
-            this.txt_sodienthoai.TabIndex = 2;
+            this.txt_sodienthoai.Size = new System.Drawing.Size(100, 22);
+            this.txt_sodienthoai.TabIndex = 29;
             // 
             // txt_email
             // 
-            this.txt_email.Location = new System.Drawing.Point(349, 71);
+            this.txt_email.Location = new System.Drawing.Point(345, 48);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(100, 23);
-            this.txt_email.TabIndex = 2;
+            this.txt_email.Size = new System.Drawing.Size(100, 22);
+            this.txt_email.TabIndex = 28;
             // 
             // txt_ten
             // 
-            this.txt_ten.Location = new System.Drawing.Point(349, 254);
+            this.txt_ten.Location = new System.Drawing.Point(345, 231);
             this.txt_ten.Name = "txt_ten";
-            this.txt_ten.Size = new System.Drawing.Size(100, 23);
-            this.txt_ten.TabIndex = 2;
+            this.txt_ten.Size = new System.Drawing.Size(100, 22);
+            this.txt_ten.TabIndex = 31;
             // 
             // txt_ho
             // 
-            this.txt_ho.Location = new System.Drawing.Point(124, 255);
+            this.txt_ho.Location = new System.Drawing.Point(120, 232);
             this.txt_ho.Name = "txt_ho";
-            this.txt_ho.Size = new System.Drawing.Size(100, 23);
-            this.txt_ho.TabIndex = 2;
+            this.txt_ho.Size = new System.Drawing.Size(100, 22);
+            this.txt_ho.TabIndex = 27;
             // 
             // txt_magiangvien
             // 
-            this.txt_magiangvien.Location = new System.Drawing.Point(124, 211);
+            this.txt_magiangvien.Location = new System.Drawing.Point(120, 188);
             this.txt_magiangvien.Name = "txt_magiangvien";
-            this.txt_magiangvien.Size = new System.Drawing.Size(100, 23);
-            this.txt_magiangvien.TabIndex = 2;
+            this.txt_magiangvien.Size = new System.Drawing.Size(100, 22);
+            this.txt_magiangvien.TabIndex = 26;
             // 
             // txt_password
             // 
-            this.txt_password.Location = new System.Drawing.Point(124, 162);
+            this.txt_password.Location = new System.Drawing.Point(120, 139);
             this.txt_password.Name = "txt_password";
-            this.txt_password.Size = new System.Drawing.Size(100, 23);
-            this.txt_password.TabIndex = 2;
+            this.txt_password.Size = new System.Drawing.Size(100, 22);
+            this.txt_password.TabIndex = 25;
             // 
             // txt_username
             // 
-            this.txt_username.Location = new System.Drawing.Point(124, 113);
+            this.txt_username.Location = new System.Drawing.Point(120, 90);
             this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(100, 23);
-            this.txt_username.TabIndex = 2;
+            this.txt_username.Size = new System.Drawing.Size(100, 22);
+            this.txt_username.TabIndex = 24;
             // 
             // txt_userid
             // 
-            this.txt_userid.Location = new System.Drawing.Point(124, 71);
+            this.txt_userid.Location = new System.Drawing.Point(120, 48);
             this.txt_userid.Name = "txt_userid";
-            this.txt_userid.Size = new System.Drawing.Size(100, 23);
-            this.txt_userid.TabIndex = 2;
+            this.txt_userid.Size = new System.Drawing.Size(100, 22);
+            this.txt_userid.TabIndex = 23;
             // 
             // lbl_email
             // 
             this.lbl_email.AutoSize = true;
-            this.lbl_email.Location = new System.Drawing.Point(251, 78);
+            this.lbl_email.Location = new System.Drawing.Point(247, 55);
             this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(38, 16);
-            this.lbl_email.TabIndex = 1;
+            this.lbl_email.Size = new System.Drawing.Size(41, 16);
+            this.lbl_email.TabIndex = 21;
             this.lbl_email.Text = "Email";
             // 
             // lbl_diachi
             // 
             this.lbl_diachi.AutoSize = true;
-            this.lbl_diachi.Location = new System.Drawing.Point(251, 179);
+            this.lbl_diachi.Location = new System.Drawing.Point(247, 156);
             this.lbl_diachi.Name = "lbl_diachi";
-            this.lbl_diachi.Size = new System.Drawing.Size(46, 16);
-            this.lbl_diachi.TabIndex = 1;
+            this.lbl_diachi.Size = new System.Drawing.Size(47, 16);
+            this.lbl_diachi.TabIndex = 20;
             this.lbl_diachi.Text = "Địa chỉ";
             // 
             // lbl_sodienthoai
             // 
             this.lbl_sodienthoai.AutoSize = true;
-            this.lbl_sodienthoai.Location = new System.Drawing.Point(251, 129);
+            this.lbl_sodienthoai.Location = new System.Drawing.Point(247, 106);
             this.lbl_sodienthoai.Name = "lbl_sodienthoai";
-            this.lbl_sodienthoai.Size = new System.Drawing.Size(88, 16);
-            this.lbl_sodienthoai.TabIndex = 1;
+            this.lbl_sodienthoai.Size = new System.Drawing.Size(92, 16);
+            this.lbl_sodienthoai.TabIndex = 19;
             this.lbl_sodienthoai.Text = "Số Điện Thoại";
             // 
             // lbl_ngaysinh
             // 
             this.lbl_ngaysinh.AutoSize = true;
-            this.lbl_ngaysinh.Location = new System.Drawing.Point(27, 359);
+            this.lbl_ngaysinh.Location = new System.Drawing.Point(23, 336);
             this.lbl_ngaysinh.Name = "lbl_ngaysinh";
-            this.lbl_ngaysinh.Size = new System.Drawing.Size(64, 16);
-            this.lbl_ngaysinh.TabIndex = 1;
+            this.lbl_ngaysinh.Size = new System.Drawing.Size(69, 16);
+            this.lbl_ngaysinh.TabIndex = 18;
             this.lbl_ngaysinh.Text = "Ngày Sinh";
             // 
             // lbl_gioitinh
             // 
             this.lbl_gioitinh.AutoSize = true;
-            this.lbl_gioitinh.Location = new System.Drawing.Point(26, 312);
+            this.lbl_gioitinh.Location = new System.Drawing.Point(22, 289);
             this.lbl_gioitinh.Name = "lbl_gioitinh";
-            this.lbl_gioitinh.Size = new System.Drawing.Size(53, 16);
-            this.lbl_gioitinh.TabIndex = 1;
+            this.lbl_gioitinh.Size = new System.Drawing.Size(54, 16);
+            this.lbl_gioitinh.TabIndex = 17;
             this.lbl_gioitinh.Text = "Giới tính";
             // 
             // lbl_ho
             // 
             this.lbl_ho.AutoSize = true;
-            this.lbl_ho.Location = new System.Drawing.Point(26, 262);
+            this.lbl_ho.Location = new System.Drawing.Point(22, 239);
             this.lbl_ho.Name = "lbl_ho";
-            this.lbl_ho.Size = new System.Drawing.Size(22, 16);
-            this.lbl_ho.TabIndex = 1;
+            this.lbl_ho.Size = new System.Drawing.Size(25, 16);
+            this.lbl_ho.TabIndex = 16;
             this.lbl_ho.Text = "Họ";
             // 
             // lbl_mssv
             // 
             this.lbl_mssv.AutoSize = true;
-            this.lbl_mssv.Location = new System.Drawing.Point(26, 218);
+            this.lbl_mssv.Location = new System.Drawing.Point(22, 195);
             this.lbl_mssv.Name = "lbl_mssv";
-            this.lbl_mssv.Size = new System.Drawing.Size(44, 16);
-            this.lbl_mssv.TabIndex = 1;
+            this.lbl_mssv.Size = new System.Drawing.Size(48, 16);
+            this.lbl_mssv.TabIndex = 15;
             this.lbl_mssv.Text = "Mã GV";
             // 
             // lbl_ten
             // 
             this.lbl_ten.AutoSize = true;
-            this.lbl_ten.Location = new System.Drawing.Point(260, 261);
+            this.lbl_ten.Location = new System.Drawing.Point(256, 238);
             this.lbl_ten.Name = "lbl_ten";
-            this.lbl_ten.Size = new System.Drawing.Size(29, 16);
-            this.lbl_ten.TabIndex = 1;
+            this.lbl_ten.Size = new System.Drawing.Size(31, 16);
+            this.lbl_ten.TabIndex = 14;
             this.lbl_ten.Text = "Tên";
             // 
             // lbl_password
             // 
             this.lbl_password.AutoSize = true;
-            this.lbl_password.Location = new System.Drawing.Point(26, 169);
+            this.lbl_password.Location = new System.Drawing.Point(22, 146);
             this.lbl_password.Name = "lbl_password";
-            this.lbl_password.Size = new System.Drawing.Size(62, 16);
-            this.lbl_password.TabIndex = 1;
+            this.lbl_password.Size = new System.Drawing.Size(67, 16);
+            this.lbl_password.TabIndex = 13;
             this.lbl_password.Text = "Password";
             // 
             // lbl_username
             // 
             this.lbl_username.AutoSize = true;
-            this.lbl_username.Location = new System.Drawing.Point(26, 120);
+            this.lbl_username.Location = new System.Drawing.Point(22, 97);
             this.lbl_username.Name = "lbl_username";
-            this.lbl_username.Size = new System.Drawing.Size(70, 16);
-            this.lbl_username.TabIndex = 1;
+            this.lbl_username.Size = new System.Drawing.Size(76, 16);
+            this.lbl_username.TabIndex = 22;
             this.lbl_username.Text = "User Name";
             // 
             // lbl_userid
             // 
             this.lbl_userid.AutoSize = true;
-            this.lbl_userid.Location = new System.Drawing.Point(26, 78);
+            this.lbl_userid.Location = new System.Drawing.Point(22, 55);
             this.lbl_userid.Name = "lbl_userid";
-            this.lbl_userid.Size = new System.Drawing.Size(49, 16);
-            this.lbl_userid.TabIndex = 0;
+            this.lbl_userid.Size = new System.Drawing.Size(52, 16);
+            this.lbl_userid.TabIndex = 12;
             this.lbl_userid.Text = "User ID";
             // 
             // ucTeacherManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgv_giangvien);
-            this.Controls.Add(this.panelControl1);
             this.Name = "ucTeacherManagement";
             this.Size = new System.Drawing.Size(1159, 648);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_giangvien)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -572,8 +568,26 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgv_giangvien;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox cbo_chucvu;
+        private System.Windows.Forms.ComboBox cbo_trinhdo;
         private System.Windows.Forms.ComboBox cbo_khoa;
+        private System.Windows.Forms.Label lbl_trinhdo;
+        private System.Windows.Forms.Label lbl_chucvu;
         private System.Windows.Forms.Label lbl_khoa;
         private System.Windows.Forms.RadioButton rb_nu;
         private System.Windows.Forms.RadioButton rb_nam;
@@ -584,6 +598,7 @@
         private System.Windows.Forms.TextBox txt_sodienthoai;
         private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.TextBox txt_ten;
+        private System.Windows.Forms.TextBox txt_ho;
         private System.Windows.Forms.TextBox txt_magiangvien;
         private System.Windows.Forms.TextBox txt_password;
         private System.Windows.Forms.TextBox txt_username;
@@ -599,24 +614,5 @@
         private System.Windows.Forms.Label lbl_password;
         private System.Windows.Forms.Label lbl_username;
         private System.Windows.Forms.Label lbl_userid;
-        private System.Windows.Forms.Label lbl_chucvu;
-        private System.Windows.Forms.Label lbl_trinhdo;
-        private System.Windows.Forms.TextBox txt_ho;
-        private System.Windows.Forms.ComboBox cbo_trinhdo;
-        private System.Windows.Forms.ComboBox cbo_chucvu;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
     }
 }
