@@ -6,31 +6,37 @@ namespace NguyenDucTien_2280603224.Entities
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class Sinh_Vien
+    public partial class Cau_Hoi
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Sinh_Vien()
+        public Cau_Hoi()
         {
-            Bai_Thi = new HashSet<Bai_Thi>();
-            Users = new HashSet<User>();
+            CT_Bai_Thi = new HashSet<CT_Bai_Thi>();
+            Phuong_An_Chon = new HashSet<Phuong_An_Chon>();
         }
 
         [Key]
         [StringLength(10)]
-        public string Ma_Sinh_Vien { get; set; }
+        public string Ma_Cau_Hoi { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Khoa { get; set; }
+        [StringLength(10)]
+        public string Ma_Chuong { get; set; }
 
-        public DateTime Ngay_Nhap_Hoc { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string Noi_Dung_Cau_Hoi { get; set; }
 
-        public int Trang_Thai_Hoc_Tap { get; set; }
+        [Required]
+        [StringLength(1)]
+        public string Phuong_An_Dung { get; set; }
+
+        public virtual Chuong Chuong { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Bai_Thi> Bai_Thi { get; set; }
+        public virtual ICollection<CT_Bai_Thi> CT_Bai_Thi { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<Phuong_An_Chon> Phuong_An_Chon { get; set; }
     }
 }

@@ -12,6 +12,7 @@ namespace NguyenDucTien_2280603224.Entities
         public Giang_Vien()
         {
             Users = new HashSet<User>();
+            Mon_Hoc = new HashSet<Mon_Hoc>();
         }
 
         [Key]
@@ -30,9 +31,14 @@ namespace NguyenDucTien_2280603224.Entities
         [StringLength(50)]
         public string Khoa { get; set; }
 
-        public int Trang_Thai_Lam_Viec { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string Trang_Thai_Lam_Viec { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<User> Users { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Mon_Hoc> Mon_Hoc { get; set; }
     }
 }

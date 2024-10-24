@@ -18,35 +18,29 @@ namespace NguyenDucTien_2280603224.Entities
         [StringLength(10)]
         public string Ma_Giang_Vien { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string UserName { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string Password { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string Ho { get; set; }
 
-        [Required]
         [StringLength(20)]
         public string Ten { get; set; }
 
-        public DateTime Ngay_Cap { get; set; }
+        public DateTime? Ngay_Cap { get; set; }
 
-        [Required]
-        [StringLength(10)]
+        [StringLength(12)]
         public string So_Dien_Thoai { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string Email { get; set; }
 
         public bool? Gioi_Tinh { get; set; }
 
-        public DateTime Ngay_Sinh { get; set; }
+        public DateTime? Ngay_Sinh { get; set; }
 
         public bool? Trang_Thai_Hoat_Dong { get; set; }
 
