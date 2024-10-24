@@ -57,7 +57,10 @@ namespace NguyenDucTien_2280603224
 
         }
 
-        
+        private void p_user_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }

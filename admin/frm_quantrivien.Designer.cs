@@ -89,6 +89,7 @@
             this.p_user.Name = "p_user";
             this.p_user.Size = new System.Drawing.Size(1162, 648);
             this.p_user.TabIndex = 3;
+            this.p_user.Paint += new System.Windows.Forms.PaintEventHandler(this.p_user_Paint);
             // 
             // frm_quantrivien
             // 
